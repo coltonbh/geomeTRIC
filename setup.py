@@ -13,7 +13,7 @@ setup(
     url='https://github.com/leeping/geomeTRIC',
     author='Lee-Ping Wang, Chenchen Song',
     packages=find_packages(),
-    package_data={'': ['*.ini']},
+    package_data={'': ['config/*.ini']},
     include_package_data=True,
     long_description=long_description,
     long_description_content_type="text/markdown",
